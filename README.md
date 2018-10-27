@@ -1,38 +1,6 @@
-<h1 align="center">所需即所获：像 IDE 一样使用 vim</h1>
-yangyangwithgnu@yeah.net  
-2016-03-30 16:39:33
+<h1 align="center"> 将VIM打造成C语言IDE </h1>
 
-
-## 【谢谢】
-
-**捐赠：支付宝 yangyangwithgnu@yeah.net ，支付宝二维码（左），微信二维码（右）**
-<div align="center">
-<img src="https://raw.githubusercontent.com/yangyangwithgnu/yangyangwithgnu.github.io/master/pics/alipay_donate_qr.png" alt=""/>
-<img src="https://raw.githubusercontent.com/yangyangwithgnu/yangyangwithgnu.github.io/master/pics/wechat_donate_qr.png" alt=""/><br>
-</div>
-
-**二手书**：书，我提高开发技能的重要手段之一，随着职业生涯的发展，书籍也在不断增多，对我而言，一本书最多读三遍，再往后，几乎没有什么营养吸收，这部分书对我已基本无用，但对其他人可能仍有价值，所以，为合理利用资源，我决定低价出售这些书，希望达到两个目的：0）用售出的钱购买更多新书（没当过雷锋的朋友 (๑´ڡ`๑)）；1）你低价购得需要的书（虽然二手）。到 https://github.com/yangyangwithgnu/used_books 看看有无你钟意的。
-
- 
-##【公告】
-----
-* **帮助：英译版编制。github.com 上搜索 vim ide 关键字后第一匹配项便是本文，洋人浏览到本文的次数非常多，常常收到要求同步发表英文版的邮件，但是，你知道，这 80+ 页的中文已经耗费我大量业余时间，所以，如果可能，希望有精力的朋友可以将其翻译为英文，感谢！**
-
-* **讨论**：任何意见建议移步 http://www.v2ex.com/t/138696
-
-
-##【版本】
-----
-* v0.1.5，2016-03-30，新增/优化：0）采用 vundle 作为插件管理器，并统一采用各插件在 github.com 的地址；1）C++11/14 语法高亮插件从 STL-Syntax 换为 vim-cpp-enhanced-highlight，后者支持 STL 以及自行编写函数、容器、模版等的高亮；2）接口文件（MyClass.h）与实现文件（MyClass.cpp）快捷切换的插件，从 a.vim 换为 vim-fswitch；3）增加标签系统和语义系统的介绍；4）其他调整；
-* v0.1.4，2016-02-16，优化：0）为规避快捷键前导字符重复导致操作等待的问题，优化光标快速移至行首/行尾的快捷键，优化结对符间快速移动的快捷键；1）增加代码折叠的环境恢复。  
-* v0.1.3，2015-11-08，新增：0）光标快速移至行首的快捷键 lh 与光标右移键 l 冲突，导致光标左移操作等待，现添加 \<Leader> 规避该问题；1）中文输入状态导致命令模式无效，借助插件解决该问题。  
-* v0.1.2，2015-01-18，新增：0）重写“内容查找”，让匹配项具备上下文提醒能力；1）“快速输入结对符”扩充快速选中结对符内文本的相关知识；2）增加支持分支 undo 的介绍；3）增加持久化保存 undo 历史的介绍；4）全文结构调整，将“内容查找”和“内容替换”移至“4 代码分析”，将“快速输入结对符”更名为“快速编辑结对符”，并移至“8 其他辅助”。  
-* v0.1.1，2014-12-27，新增/修正：0）重写“代码收藏”章节，停用过时的 visual mark，启用用户体验更优的 vim-signature（@arcticlion，谢谢）；1）新增“基于语义的导航”章节，YCM 新增该项功能；2）调整“5.2 模板补全”章节结构，UltiSnips 不再提供预定义代码模板；3）protodef 插件更新，修复 protodef 生成成员函数实现的返回语句错误的问题；4）给出安装插件 vim-instant-markdown 的详细步骤。  
-* v0.1.0，2014-10-13，新增。发布初始版本。
-
-
-##【目录】
-----
+## 【目录】
 
 [0 vim 必知会 ](#0)  
 ........[0.1 .vimrc 文件 ](#0.1)  
